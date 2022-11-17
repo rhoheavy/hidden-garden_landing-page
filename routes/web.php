@@ -17,4 +17,12 @@ Route::get('/', function () {
     return view('homepage');
 });
 
+Route::get('/social', function () {
+    return view('social');
+});
+
+Route::get('/team', function () {
+    return view('team');
+});
+
 // Route::get('/',[HomeController::class,'index'])->name('home');

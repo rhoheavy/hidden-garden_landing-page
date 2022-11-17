@@ -21,6 +21,9 @@
 <body class="antialiased">
     @include('layouts.partials.nav')
     @yield('content')
+    @include('layouts.partials.story')
+    @include('layouts.partials.characters')
+    @include('layouts.partials.gallery')
     @include('layouts.partials.footer')
 
 </body>

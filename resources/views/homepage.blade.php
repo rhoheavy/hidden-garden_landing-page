@@ -13,13 +13,16 @@
                     tumeric truffaut hexagon try-hard chambray.</p>
                 <div class="flex justify-center">
                     <button
-                        class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Button</button>
+                        class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
+                        <a href="/social">Contacto</a></button>
                     <button
-                        class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+                        class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+                        <a href="/team">Inside
+                            The Park</a> </button>
                 </div>
             </div>
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                <img class="object-cover object-center rounded" alt="hero" src="{{ asset('img/castle.jpg') }}">
+                <img class="object-cover object-center rounded" alt="hero" src="{{ asset('img/BoxArtNoBG.png') }}">
             </div>
         </div>
     </section>
