@@ -17,9 +17,10 @@
                         stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
                         <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
                     </svg>
+                    <img src="{{ asset('img/MoonSoominFront.png') }}" alt="">
                 </div>
                 <div class="flex-grow">
-                    <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Shooting Stars</h2>
+                    <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Moon Soomin</h2>
                     <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                         taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.</p>
                     <a class="mt-3 text-blue-500 inline-flex items-center">Learn More
@@ -39,9 +40,10 @@
                         <circle cx="6" cy="18" r="3"></circle>
                         <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
                     </svg>
+                    <img src="{{ asset('img/AntonMylesDeCuryyFront.png') }}" alt="">
                 </div>
                 <div class="flex-grow">
-                    <h2 class="text-gray-900 text-lg title-font font-medium mb-3">The Catalyzer</h2>
+                    <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Anton Myles DeCurry</h2>
                     <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                         taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.</p>
                     <a class="mt-3 text-blue-500 inline-flex items-center">Learn More
@@ -60,9 +62,10 @@
                         <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
                         <circle cx="12" cy="7" r="4"></circle>
                     </svg>
+                    <img src="{{ asset('img/EmmaGoodwindFront.png') }}" alt="">
                 </div>
                 <div class="flex-grow">
-                    <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Neptune</h2>
+                    <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Emma Goodwind</h2>
                     <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                         taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.</p>
                     <a class="mt-3 text-blue-500 inline-flex items-center">Learn More
