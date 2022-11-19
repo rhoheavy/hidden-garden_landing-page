@@ -1,6 +1,6 @@
 <section class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto">
-        <div class="text-center mb-20">
+        <div id="anclaChar" class="text-center mb-20">
             <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Habitantes del Jardín Secreto</h1>
             <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">En algún dentro de este mundo
                 existe un Jardín Oculto donde crecen árboles que representan a cada uno de estos seres que viven en él

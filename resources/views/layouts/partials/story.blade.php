@@ -1,6 +1,6 @@
 <section class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto flex flex-col">
-        <div class="lg:w-4/6 mx-auto">
+        <div id="anclaStory" class="lg:w-4/6 mx-auto">
             <div class="rounded-lg h-64 overflow-hidden">
                 <img alt="content" class="object-cover object-center h-full w-full" src="{{ asset('img/jail.png') }}">
             </div>
@@ -16,7 +16,8 @@
                         <img src="{{ asset('img/ArchivalDeCurryFront.png') }}" alt="">
                     </div>
                     <div class="flex flex-col items-center text-center justify-center">
-                        <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">Archival DeCurry</h2>
+                        <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">Archival DeCurry
+                        </h2>
                         <div class="w-12 h-1 bg-blue-500 rounded mt-2 mb-4"></div>
                         <p class="text-base">Destinado a proteger el Jardín, pero su avaricia y crueldad lo hicieron
                             perder su árbol y lugar en la Familia. </p>

@@ -1,1 +1,1 @@
-@extends('layouts.sociallayouts')
+@extends('layouts.teamlayouts')

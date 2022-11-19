@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     @vite('resources/css/app.css')
-    <title>Homepage</title>
+    <title>Social</title>
 
     <!-- Fonts -->
     <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -19,9 +19,14 @@
 </head>
 
 <body class="antialiased">
-    @include('layouts.partials.nav')
+
+    @include('layouts.partials.navPage')
     @yield('content')
+    @include('layouts.partials.social')
+    @include('layouts.partials.testimonial')
+    @include('layouts.partials.contact')
     @include('layouts.partials.footer')
+
 
 </body>
 
