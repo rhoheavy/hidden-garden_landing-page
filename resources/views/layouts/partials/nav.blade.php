@@ -9,9 +9,9 @@
             <span class="ml-3 text-xl">The Hidden Garden</span>
         </a>
         <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a href="#anclaStory" class="mr-5 hover:text-gray-900">Story</a>
-            <a href="#anclaChar" class="mr-5 hover:text-gray-900">Characters</a>
-            <a href="#anclaGallery" class="mr-5 hover:text-gray-900">Gallery</a>
+            <a href="#anclaStory" class="mr-5 hover:text-gray-900">Historia</a>
+            <a href="#anclaChar" class="mr-5 hover:text-gray-900">Personajes</a>
+            <a href="#anclaGallery" class="mr-5 hover:text-gray-900">Galería</a>
         </nav>
 
     </div>
