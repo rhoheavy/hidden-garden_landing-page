@@ -22,7 +22,7 @@
 
     @include('layouts.partials.navPage')
     @yield('content')
-
+    @include('layouts.partials.team')
     @include('layouts.partials.footer')
 
 
