@@ -1,25 +1,29 @@
-<section class="text-gray-600 body-font">
-    <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
-        <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
-            <h1 class="title-font font-medium text-3xl text-gray-900">Mantente al tanto de las noticias del desarrollo
-            </h1>
-            <p class="leading-relaxed mt-4">Sé el primero en enterarte registrandote en el newletters</p>
-        </div>
-        <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
-            <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Sign Up</h2>
-            <div class="relative mb-4">
-                <label for="full-name" class="leading-7 text-sm text-gray-600">Nombre Completo</label>
-                <input type="text" id="full-name" name="full-name"
-                    class="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
-            </div>
+<section class="text-gray-600 body-font relative">
+    <div class="absolute inset-0 bg-gray-300">
+        <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d927.8979328503846!2d-104.9307219625607!3d21.52370587804201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842736cf633fa92f%3A0x1dc1d560eb414f0f!2sEl%20Ahuacate%2C%20Valle%20de%20Nayarit%2C%2063180%20Tepic%2C%20Nay.!5e0!3m2!1ses!2smx!4v1669758176678!5m2!1ses!2smx"
+            style=""></iframe>
+    </div>
+    <div class="container px-5 py-24 mx-auto flex">
+        <div
+            class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 
+            md:mt-0 relative z-10 shadow-md">
+            <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
+            <p class="leading-relaxed mb-5 text-gray-600">Dejanos saber tu opinión
+            </p>
             <div class="relative mb-4">
                 <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
                 <input type="email" id="email" name="email"
                     class="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
             </div>
+            <div class="relative mb-4">
+                <label for="message" class="leading-7 text-sm text-gray-600">Mensaje</label>
+                <textarea id="message" name="message"
+                    class="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+            </div>
             <button
-                class="text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Registrarse</button>
-            <p class="text-xs text-gray-500 mt-3">Encuentra los secretos del Hidden Garden</p>
+                class="text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Enviar</button>
+            <p class="text-xs text-gray-500 mt-3">Recibe las ultimas noticias del desarrollo del proyecto</p>
         </div>
     </div>
 </section>
